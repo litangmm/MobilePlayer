@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/fl_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_button_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#11000000"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <RadioButton
+            android:id="@+id/rb_video"
+            android:text="@string/nativeVideo"
+            android:drawableTop="@drawable/rb_video_drawable_selector"
+            style="@style/botton_tag_style" />
+
+        <RadioButton
+            android:id="@+id/rb_audio"
+            android:text="@string/nativeAudio"
+            android:drawableTop="@drawable/rb_audio_drawable_selector"
+            style="@style/botton_tag_style" />
+
+        <RadioButton
+            android:id="@+id/rb_netvideo"
+            android:text="@string/netVideo"
+            android:drawableTop="@drawable/rb_netvideo_drawable_selector"
+            style="@style/botton_tag_style" />
+
+        <RadioButton
+            android:id="@+id/rb_netaudio"
+            android:text="@string/netAudio"
+            android:drawableTop="@drawable/rb_netaudio_drawable_selector"
+            style="@style/botton_tag_style" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">播播</string>
+    <string name="nativeVideo">本地视频</string>
+    <string name="nativeAudio">本地音频</string>
+    <string name="netVideo">网络视频</string>
+    <string name="netAudio">网络音频</string>
+</resources>
